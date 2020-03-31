@@ -16,6 +16,15 @@ public class Inventory {
 
     @Column(name = "color")
     private String color;
+    public Inventory(){
+
+    }
+    public Inventory(long id, String description, double price, String color) {
+        this.id=id;
+        this.description=description;
+        this.price=price;
+        this.color=color;
+    }
 
     public long getId() {
         return id;

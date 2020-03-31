@@ -27,9 +27,9 @@
 
 <table>
     <tr>
-        <th>Description</th>
-        <th>Color</th>
-        <th>Price</th>
+        <th>description</th>
+        <th>color</th>
+        <th>price</th>
     </tr>
     <c:forEach var = "listitem" items = "${inventorylist}">
         <tr>
